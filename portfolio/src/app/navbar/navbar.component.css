@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../../../public/assets/submissionchart.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    padding: 10px;
+    backdrop-filter: blur(50px);
+}
+
+button {
+    background-color: #c9ada7 !important;
+    color: #22223b;
+    border: none;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px 0;
+}
+
+button:hover {
+    background-color: #22223b !important;
+    color: #f2e9e4;
+}
