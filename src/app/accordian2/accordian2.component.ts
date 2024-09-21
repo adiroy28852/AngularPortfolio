@@ -3,13 +3,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AccordionModule } from "ngx-bootstrap/accordion";
 
 @Component({
-  selector: "app-accordion",
+  selector: "app-accordian2",
   standalone: true,
   imports: [AccordionModule],
-  templateUrl: "./accordion.component.html",
-  styleUrl: "./accordion.component.css",
+  templateUrl: "./accordian2.component.html",
+  styleUrl: "./accordian2.component.css",
   providers: [BrowserAnimationsModule],
 })
-export class AccordionComponent {
+export class Accordian2Component {
   customClass = "customClass";
 }
